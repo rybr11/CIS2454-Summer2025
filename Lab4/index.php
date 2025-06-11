@@ -35,7 +35,8 @@
                 
                 include('views/pizza_order.php');
             
-            } else if ($action){
+            } 
+            else if ($action){
                 include('views/error.php');
             }
             
