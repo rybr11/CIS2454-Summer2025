@@ -9,13 +9,10 @@
         return $topping_count;
     }
     
-    // creates a comma-separated list of toppings for display
     function get_toppings($pizza_toppings) {
         return join(', ', $pizza_toppings);
     }
     
-    //calcualtes the cost of the pizza the user ordered based on size of pizza 
-    //and number of toppings
     function get_cost($size, $topping_count) {
         define('SMALL', 5.0);
         define('MEDIUM', 7.0);
@@ -29,5 +26,5 @@
             return LARGE + 1.5*$topping_count;
         }
     }
-?>
+
 

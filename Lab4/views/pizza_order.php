@@ -4,5 +4,4 @@
         . 'with ' . $toppings_string . '</br>'
         . 'Total Cost: $' . number_format($total_cost, 2)
         . '<br>';
-    
-?>
+

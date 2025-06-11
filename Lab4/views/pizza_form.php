@@ -16,14 +16,20 @@
     <label>Sausage</label></br>
     <input type="checkbox" name="pizza_toppings[]" value="Bacon">
     <label>Bacon</label></br>
+    <input type="checkbox" name="pizza_toppings[]" value="Ham">
+    <label>Ham</label></br>
     <input type="checkbox" name="pizza_toppings[]" value="Peppers">
     <label>Green Peppers</label></br>
+    <input type="checkbox" name="pizza_toppings[]" value="Onions">
+    <label>Onions</label></br>
     <input type="checkbox" name="pizza_toppings[]" value="Mushrooms">
     <label>Mushrooms</label></br>
     <input type="checkbox" name="pizza_toppings[]" value="Pineapple">
     <label>Pineapple</label></br>
     <input type="checkbox" name="pizza_toppings[]" value="Olives">
     <label>Black Olives</label></br>
+    <input type="checkbox" name="pizza_toppings[]" value="Anchovies">
+    <label>Anchovies</label></br>
     </br>
     <input type="submit" value="Order">
     <input type="hidden" name="action" value="form_submit">
