@@ -19,11 +19,13 @@
         define('LARGE', 9.0);
         
         if ($size == 'Small') {
-            return SMALL + 0.5*$topping_count;
-        } else if ($size == 'Medium') {
-            return MEDIUM + 1*$topping_count;
-        } else if ($size == 'Large') {
-            return LARGE + 1.5*$topping_count;
+            return SMALL + 0.5 * $topping_count;
+        } 
+        else if ($size == 'Medium') {
+            return MEDIUM + 1 * $topping_count;
+        } 
+        else if ($size == 'Large') {
+            return LARGE + 1.5 * $topping_count;
         }
     }
 

@@ -1,5 +1,8 @@
 <h2>Pizza Order</h2>
+
 <form action="index.php" method="post">
+    
+    
     <h3>Pizza Size</h3>
     <input type="radio" name="pizza_size" value="Small">
     <label>Small ($5.00)</label></br>
@@ -8,8 +11,11 @@
     <input type="radio" name="pizza_size" value="Large">
     <label>Large ($9.00)</label></br>
     </br>
+    
+    
     <h3>Pizza Toppings</h3>
     <p>Small: $0.50 | Medium: $1.00 | Large: $1.50 per Topping</p>
+    
     <input type="checkbox" name="pizza_toppings[]" value="Pepperoni">
     <label>Pepperoni</label></br>
     <input type="checkbox" name="pizza_toppings[]" value="Sausage">

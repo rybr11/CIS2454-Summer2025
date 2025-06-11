@@ -25,8 +25,9 @@
                 }
                 
                 if ($topping_count == 0) {
-                    $toppings_string = 'No Toppings';
-                } else {
+                $toppings_string = 'No Toppings';
+                } 
+                else {
                     $toppings_string = get_toppings($pizza_toppings);
                 }
                 
@@ -35,7 +36,7 @@
                 include('views/pizza_order.php');
             
             } else if ($action){
-                include('views/errors.php');
+                include('views/error.php');
             }
             
             include('views/pizza_form.php');
